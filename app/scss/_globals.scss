@@ -7,4 +7,39 @@
 }
 
 body {
+  background-color: $lightGray;
+  color: $white;
+  @media (min-width: 1080px) {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
+p,
+a {
+  font-family: $ff-text;
+}
+
+h1,
+a {
+  color: $lightGray;
+}
+
+h1 {
+  font-family: $ff-title;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: $fs-regular;
+}
+
+// a,
+// a:visited,
+// :active {
+//   text-decoration: none;
+// }
